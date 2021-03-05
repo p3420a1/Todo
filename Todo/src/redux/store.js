@@ -5,10 +5,8 @@ import {
     getDefaultMiddleware,
     PayloadAction
   } from "@reduxjs/toolkit";
-
-  import uuid from 'react-native-uuid'
-
-// import logger from "redux-logger";
+import uuid from 'react-native-uuid'
+import logger from "redux-logger";
 
 const todosInitialState = [
     {
@@ -106,7 +104,9 @@ const todosInitialState = [
     counter: counterSlice.reducer
   });
   
-  // const middleware = [...getDefaultMiddleware(), logger];
+  const middleware = [...getDefaultMiddleware(), logger];
+  
   export default configureStore({
     reducer,
+    middleware
   });
