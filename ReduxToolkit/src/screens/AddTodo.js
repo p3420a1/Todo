@@ -43,12 +43,16 @@ export default function AddTodo({navigation}) {
       <Text style={styles.text}>React Native Todo App</Text>
       <View style={styles.innerContainer}>
         <TextInput
+          testID = 'TodoLabel'
+          accessibilityLabel = 'TodoLabel'
           style={styles.textInput}
           onChangeText={(text) => onChangeText(text)}
           value={value}
           placeholder="Add a task to do"
         />
         <TouchableOpacity
+          testID = 'AddTodoButton'
+          accessibilityLabel = 'AddTodoButton'
           style={styles.buttonContainer}
           onPress={() => addTodoItem(value)}>
           <Icon name="plus" size={24} color="white" />
