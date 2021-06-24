@@ -1,4 +1,4 @@
-package com.reduxtoolkit;
+package com.todo;
 
 import com.facebook.react.ReactActivity;
 

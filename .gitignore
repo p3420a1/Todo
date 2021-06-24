@@ -23,33 +23,33 @@ DerivedData
 
 # Android/IntelliJ
 #
-ReduxToolkit/android/app/build/
-ReduxToolkit/android/.idea
-ReduxToolkit/android/.gradle
-ReduxToolkit/android/local.properties
-ReduxToolkit/android/*.hprof
-ReduxToolkit/android/app/*.keystore
-ReduxToolkit/android/app/!debug.keystore
-ReduxToolkit/ssh
-ReduxToolkit/ssh.pub
+Todo/android/app/build/
+Todo/android/.idea
+Todo/android/.gradle
+Todo/android/local.properties
+Todo/android/*.hprof
+Todo/android/app/*.keystore
+Todo/android/app/!debug.keystore
+Todo/ssh
+Todo/ssh.pub
 *.apk
 output.json
 
 
 
-ReduxToolkit/*.iml
+Todo/*.iml
 
 # node.js
 #
-ReduxToolkit/node_modules/
-ReduxToolkit/npm-debug.log
-ReduxToolkit/yarn-error.log
+Todo/node_modules/
+Todo/npm-debug.log
+Todo/yarn-error.log
 
 # BUCK
-ReduxToolkit/buck-out/
+Todo/buck-out/
 \.buckd/
-ReduxToolkit/*.keystore
-ReduxToolkit/!debug.keystore
+Todo/*.keystore
+Todo/!debug.keystore
 
 # fastlane
 #
@@ -67,4 +67,4 @@ ReduxToolkit/!debug.keystore
 
 
 #iOS
-ReduxToolkit/ios/Pods/
+Todo/ios/Pods/
