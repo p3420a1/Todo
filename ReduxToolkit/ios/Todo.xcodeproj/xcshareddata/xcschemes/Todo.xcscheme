@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ReduxToolkit.app"
-               BlueprintName = "ReduxToolkit"
-               ReferencedContainer = "container:ReduxToolkit.xcodeproj">
+               BuildableName = "Todo.app"
+               BlueprintName = "Todo"
+               ReferencedContainer = "container:Todo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ReduxToolkitTests.xctest"
-               BlueprintName = "ReduxToolkitTests"
-               ReferencedContainer = "container:ReduxToolkit.xcodeproj">
+               BuildableName = "TodoTests.xctest"
+               BlueprintName = "TodoTests"
+               ReferencedContainer = "container:Todo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReduxToolkit.app"
-            BlueprintName = "ReduxToolkit"
-            ReferencedContainer = "container:ReduxToolkit.xcodeproj">
+            BuildableName = "Todo.app"
+            BlueprintName = "Todo"
+            ReferencedContainer = "container:Todo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReduxToolkit.app"
-            BlueprintName = "ReduxToolkit"
-            ReferencedContainer = "container:ReduxToolkit.xcodeproj">
+            BuildableName = "Todo.app"
+            BlueprintName = "Todo"
+            ReferencedContainer = "container:Todo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

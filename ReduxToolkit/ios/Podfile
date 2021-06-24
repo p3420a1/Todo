@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'ReduxToolkit' do
+target 'Todo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'ReduxToolkitTests' do
+  target 'TodoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'ReduxToolkit' do
   #end
 end
 
-target 'ReduxToolkit-tvOS' do
-  # Pods for ReduxToolkit-tvOS
+target 'Todo-tvOS' do
+  # Pods for Todo-tvOS
 
-  target 'ReduxToolkit-tvOSTests' do
+  target 'Todo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
