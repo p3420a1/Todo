@@ -1,6 +1,8 @@
 import wd from 'wd';
 import path from 'path'
 import getElement from './helpers/getElement'
+import os from 'os'
+import fs from 'fs'
 
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 60000;
 const PORT = 4723;
@@ -12,10 +14,8 @@ const configAndroid = {
   platformVersion: '11.0',
   deviceName: 'emulator-5554',
   automationName: 'UiAutomator2',
-  appActivity: 'com.kynder.MainActivity',
-  appPackage: 'com.kynder.staging',
   newCommandTimeout: 0,
-  app: '/Users/preeti/Desktop/ReactNative/git/kynder-mobile/kynder/android/app/build/outputs/apk/staging/debug/app-staging-universal-debug.apk',
+  app: path.join(__dirname,'../../android/app/build/outputs/apk/debug/app-debug.apk'),
 };
 
 const homedir = os.homedir();
